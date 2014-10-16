@@ -22,6 +22,7 @@ class TestCase extends Tester\TestCase {
 	{
 		$rootDir = __DIR__ . '/../../';
 		$config = new Nette\Configurator();
+		\Writeligent\Core\DI\Extension::register($config);
 		$this->container = $config->setTempDirectory(TEMP_DIR)
 			->addConfig(__DIR__ . '/../../config/base.neon', $config::NONE)
 			->addParameters(array(

@@ -8,4 +8,3 @@ nette:
 services:
 	cacheStorage:
 		class: Nette\Caching\Storages\MemoryStorage
-	- Writeligent\Core\TemplateRepository
