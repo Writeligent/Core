@@ -1,7 +1,7 @@
 {
     "name": "writeligent/core",
     "require": {
-        "nette/application" : "~2.2"
+        "nette/nette" : "~2.2"
     },
     "require-dev": {
         "nette/tester": "@dev"
