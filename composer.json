@@ -4,6 +4,7 @@
         "php": ">=5.4.0"
     },
     "require-dev": {
+        "nette/nette": "@dev",
         "nette/tester": "@dev"
     },
     "license":  ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
