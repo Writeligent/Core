@@ -82,7 +82,6 @@ class TemplateRepository extends Nette\Object
 
 	protected function checkCandidates($candidates)
 	{
-		echo var_dump($candidates);
 		foreach ($candidates as $candidate) {
 			if (is_file($candidate)) {
 				return $candidate;
