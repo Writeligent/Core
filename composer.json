@@ -5,7 +5,8 @@
     },
     "require-dev": {
         "nette/nette": "@dev",
-        "nette/tester": "@dev"
+        "nette/tester": "@dev",
+        "besanek/presenter-tester": "0.1.0-rc"
     },
     "license":  ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
      "autoload": {
